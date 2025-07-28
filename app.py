@@ -15,7 +15,7 @@ endpoint_secret = os.getenv("STRIPE_WEBHOOK_SECRET")
 def index():
     return '''
     <form action="/create-checkout-session" method="POST">
-        <button type="submit">Comprar e-book - R$19,90</button>
+        <button type="submit">Comprar e-book - R$ 9,99</button>
     </form>
     '''
 
